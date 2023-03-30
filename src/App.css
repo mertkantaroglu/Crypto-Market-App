@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+body {
+  background-color: #3498db;
 }
 
 .App {
@@ -7,6 +14,7 @@
   background-color: #3498db;
   margin: -8px;
   color: white;
+  height: 100vh;
 }
 
 nav {
