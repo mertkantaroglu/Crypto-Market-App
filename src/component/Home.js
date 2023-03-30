@@ -39,11 +39,10 @@ const Home = () => {
 
   const filteredCoins = coins.filter((coin) => {
     const filter = search.get('filter');
-    if (!filter)
-    return true;
+    if (!filter) return true;
     const name = coin.name.toLowerCase();
     const symbol = coin.symbol.toLowerCase();
-    return name.startsWith(filter.toLowerCase()) || symbol.startsWith(filter.toLowerCase()) ;
+    return name.startsWith(filter.toLowerCase()) || symbol.startsWith(filter.toLowerCase());
   });
 
   return (
@@ -51,6 +50,7 @@ const Home = () => {
       <section className="homepage">
         <Navbar />
         <input
+          className="search-input"
           type="text"
           placeholder="Search..."
           value={search.get('filter') || ''}
@@ -64,13 +64,20 @@ const Home = () => {
                 className="forward-icon"
                 onClick={() => handleArrowClick(coin.id)}
               />
-              <img className="coin-icon" src={coin.icon} alt={coin.name}
-                  width="100px"
-                  height="100px" />
+              <img
+                className="coin-icon"
+                src={coin.icon}
+                alt={coin.name}
+                width="100px"
+                height="100px"
+              />
               <div className="coin-info">
                 <h2 className="coin-name">{coin.name}</h2>
                 <h4 className="coin-symbol">{coin.symbol}</h4>
-                <h4 className="coin-price">${coin.price}</h4>
+                <h4 className="coin-price">
+                  $
+                  {coin.price}
+                </h4>
               </div>
             </div>
           ))}

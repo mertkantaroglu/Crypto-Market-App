@@ -33,15 +33,15 @@ const coinsSlice = createSlice({
       state.status = 'loading';
     })
 
-    .addCase(getCoins.fulfilled, (state, action) => {
-      state.status = 'succeeded';
-      state.coins = action.payload;
-    })
+      .addCase(getCoins.fulfilled, (state, action) => {
+        state.status = 'succeeded';
+        state.coins = action.payload;
+      })
 
-    .addCase(getCoins.rejected, (state, action) => {
-      state.status = 'failed';
-      state.error = action.error.message;
-    })
+      .addCase(getCoins.rejected, (state, action) => {
+        state.status = 'failed';
+        state.error = action.error.message;
+      });
   },
 });
 

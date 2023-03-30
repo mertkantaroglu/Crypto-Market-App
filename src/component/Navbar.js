@@ -10,7 +10,9 @@ function Navbar() {
       <nav className="nav">
         <div className="back-icon">
           <NavLink to="/">
-            <IoIosArrowBack className="back-arrow" /> 2023
+            <IoIosArrowBack className="back-arrow" />
+            {' '}
+            <p>2023</p>
           </NavLink>
         </div>
         <div className="icons">
@@ -18,7 +20,9 @@ function Navbar() {
           <AiOutlineSetting />
         </div>
       </nav>
-      <div>Crypto Market App <br />Top 100 Coins</div>
+      <h1>
+        Crypto Market App
+      </h1>
     </>
   );
 }
