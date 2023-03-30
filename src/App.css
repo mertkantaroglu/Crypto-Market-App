@@ -16,7 +16,7 @@ nav {
   padding: 0 5%;
   align-items: center;
   background: #4369b2;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .back-icon a {
@@ -60,17 +60,18 @@ h1 {
 .coin-header {
   flex: 45%;
   padding: 10px 0 15px 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,.4), 0 7px 13px -3px rgba(0,0,0,.3), inset 0 -3px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0 -3px 0 rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
-.coin-header:nth-child(4n+2), .coin-header:nth-child(4n+3) {
+.coin-header:nth-child(4n+2),
+.coin-header:nth-child(4n+3) {
   background-color: #4369b2;
 }
 
 .forward-icon {
   font-size: 20px;
-  margin-left: 90%
+  margin-left: 90%;
 }
 
 .coin-info > * {

@@ -60,17 +60,17 @@ const Home = () => {
         <div className="coins-list">
           {filteredCoins.map((coin) => (
             <div key={coin.id} className="coin-header">
-                <BsArrowRightCircle
-                  className="forward-icon"
-                  onClick={() => handleArrowClick(coin.id)}
-                />
-                <img
-                  className="coin-icon"
-                  src={coin.icon}
-                  alt={coin.name}
-                  width="100px"
-                  height="100px"
-                />
+              <BsArrowRightCircle
+                className="forward-icon"
+                onClick={() => handleArrowClick(coin.id)}
+              />
+              <img
+                className="coin-icon"
+                src={coin.icon}
+                alt={coin.name}
+                width="100px"
+                height="100px"
+              />
               <div className="coin-info">
                 <h2 className="coin-name">{coin.name}</h2>
                 <h4 className="coin-symbol">{coin.symbol}</h4>
