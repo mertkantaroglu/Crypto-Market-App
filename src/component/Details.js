@@ -14,8 +14,8 @@ function Details() {
     <>
       <Navbar />
       <br />
-        <main>
-          <section className="details-section">
+        <div>
+          <section className="main-section">
             <div className="coin-img">
               <img
                 src={detail.icon}
@@ -23,25 +23,48 @@ function Details() {
                 width="100px"
                 height="100px"
               />
-              <div>{detail.name}</div>
-              <div>{detail.symbol}</div>
+              <h2>{detail.name}</h2>
+              <h3>{detail.symbol}</h3>
             </div>
           </section>
-          <section className="coin-details">
-            <h3>Coin Details</h3>
+          <section className="details-section">
+            <h2>Coin Details</h2>
+            <div className="coin-details">
               <ul>
-                <li>Name: <span>{detail.name}</span></li>
-                <li>Price (USD): <span>{detail.price}</span></li>
-                <li>Bitcoin Price: <span>{detail.priceBtc}</span></li>
-                <li>Market Rank: <span>{detail.rank}</span></li>
-                <li>Price Change 1d (%): <span>{detail.priceChange1d}</span></li>
-                <li>Available Supply: <span>{detail.availableSupply}</span></li>
-                <li>Total Supply: <span>{detail.totalSupply}</span></li>
-                <li>Market Cap (USD): <span>{detail.marketCap}</span></li>
-                <li>Website: <span>{detail.websiteUrl}</span></li>
+                <li className="param">Price (USD): </li>
+                <li className="data">{detail.price}</li>
               </ul>
+              <ul>
+                <li className="param">Bitcoin Price: </li>
+                <li className="data">{detail.priceBtc}</li>
+              </ul>
+              <ul>
+                <li className="param">Market Rank: </li>
+                <li className="data">{detail.rank}</li>
+              </ul>
+              <ul>
+                <li className="param">Price Change (%) 1d: </li>
+                <li className="data">{detail.priceChange1d}</li>
+              </ul>
+              <ul>
+                <li className="param">Available Supply: </li>
+                <li className="data">{detail.availableSupply}</li>
+              </ul>
+              <ul>
+                <li className="param">Total Supply: </li>
+                <li className="data">{detail.totalSupply}</li>
+              </ul>
+              <ul>
+                <li className="param">Market Cap (USD): </li>
+                <li className="data">{detail.marketCap}</li>
+              </ul>
+              <ul>
+                <li className="param">Website: </li>
+                <li className="data">{detail.websiteUrl}</li>
+              </ul>
+              </div>
           </section>
-        </main>
+        </div>
     </>
   );
 }
