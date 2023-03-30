@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-# Crypto Market App Project
-
 # 📗 Table of Contents
 
 - [Crypto Market App Project](#crypto-market-app-project)
@@ -75,7 +73,7 @@ Example commands:
 
 ```sh
   cd <desired-folder>
-  git clone https://github.com/mertkantaroglu/react-redux-group-project.git
+  git clone https://github.com/mertkantaroglu/Crypto-Market-App.git
   cd react-redux-group-project
 ```
 
@@ -115,8 +113,8 @@ npm run test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [] Add more coins to the list
-- [] Get various current prices from different APIs
+- [ ] Add more coins to the list
+- [ ] Get various current prices from different APIs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
