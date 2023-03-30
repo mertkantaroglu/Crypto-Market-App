@@ -1,10 +1,150 @@
 * {
-  padding: 0;
   box-sizing: border-box;
-  max-width: 375px;
-  margin: 0 auto;
 }
 
 .App {
   text-align: center;
+  background-color: #3498db;
+  margin: -8px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5%;
+  align-items: center;
+  background: #4369b2;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+}
+
+.back-icon a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  gap: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.icons {
+  font-size: 20px;
+  display: flex;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.search-input {
+  margin: 0 auto 2rem auto;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 16px;
+  border: 2px solid #4369b2;
+}
+
+.coins-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: auto;
+  width: 98%;
+}
+
+.coin-header {
+  flex: 45%;
+  padding: 10px 0 15px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,.4), 0 7px 13px -3px rgba(0,0,0,.3), inset 0 -3px 0 rgba(0,0,0,.2);
+  border-radius: 8px;
+}
+
+.coin-header:nth-child(4n+2), .coin-header:nth-child(4n+3) {
+  background-color: #4369b2;
+}
+
+.forward-icon {
+  font-size: 20px;
+  margin-left: 90%
+}
+
+.coin-info > * {
+  margin: 10px;
+}
+
+.coin-price {
+  margin: 10px 0 20px 0;
+}
+
+.main-section {
+  color: white;
+}
+
+.main-section h2 {
+  margin: 12px 0 6px 0;
+}
+
+.main-section h3 {
+  margin: 0;
+}
+
+.details-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.details-section h2 {
+  background-color: #4369b2;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+
+.coin-details {
+  min-width: 375px;
+  width: 100%;
+}
+
+.coin-details ul {
+  list-style: none;
+  display: flex;
+  padding: 0 10px;
+}
+
+.coin-details ul:nth-child(even) {
+  background-color: #4369b2;
+  padding: 10px;
+}
+
+.param {
+  display: flex;
+  min-width: 175px;
+  text-align: left;
+  margin-left: 30%;
+  margin-right: -25%;
+}
+
+.data {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+  .forward-icon {
+    margin-left: 80%;
+  }
+
+  .param {
+    margin-left: 5%;
+    margin-right: -10%;
+  }
 }
