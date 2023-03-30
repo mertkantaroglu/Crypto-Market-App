@@ -2,8 +2,6 @@
 
 # 📗 Table of Contents
 
-- [Crypto Market App Project](#crypto-market-app-project)
-- [📗 Table of Contents](#-table-of-contents)
 - [📖 Crypto Market App Project ](#-crypto-market-app-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -30,13 +28,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-### Key Features <a name="key-features"></a>
-
-- **Homepage**
-- **Coin Details Page**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -51,9 +42,16 @@
   </ul>
 </details>
 
+### Key Features <a name="key-features"></a>
+
+- **Homepage**
+- **Coin Details Page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon!
+[Live Demo](https://coin-market-app-project.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +124,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank for Microverse to provide us learning materials, [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for his beautiful design, and my peers for helping me out to move forward.
+I would like to thank for Microverse to provide us learning materials, [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for his beautiful design ideas, and my peers for helping me out to move forward.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
