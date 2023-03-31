@@ -54,7 +54,7 @@
 
 [Live Demo](https://coin-market-app-project.netlify.app/)
 
-[Presentation Video](https://www.loom.com/share/f1f3b53299934881aa466729027c56fe)
+[Presentation Video](https://www.loom.com/share/1f17167ac9154013b5c65b969a818ca5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
