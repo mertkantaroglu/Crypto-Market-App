@@ -45,7 +45,7 @@ nav {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: bolder;
 }
 
@@ -79,7 +79,9 @@ h1 {
 
 .forward-icon {
   font-size: 20px;
-  margin-left: 90%;
+  margin-left: 92%;
+  margin-top: 1%;
+  cursor: pointer;
 }
 
 .coin-info > * {
@@ -148,6 +150,10 @@ h1 {
 }
 
 @media screen and (max-width: 375px) {
+  h1 {
+    font-size: 36px;
+  }
+
   .forward-icon {
     margin-left: 80%;
   }

@@ -2,11 +2,12 @@
 
 # 📗 Table of Contents
 
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 Crypto Market App Project ](#-crypto-market-app-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Live Demo \& Presentation Video ](#-live-demo--presentation-video-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites ](#prerequisites-)
     - [Setup ](#setup-)
@@ -49,15 +50,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & Presentation Video <a name="live-demo"></a>
 
 [Live Demo](https://coin-market-app-project.netlify.app/)
+
+[Presentation Video](https://www.loom.com/share/f1f3b53299934881aa466729027c56fe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-Portfolio presentation will be coming soon.
 
 ### Prerequisites <a name="prerequisites"></a>
 
